@@ -4,4 +4,8 @@
 * In `Transformer` Coupling, transformer is used as the coupling device. It performs same actions as RC Coupled amplifier but permits `IMPEDANCE MATCHING`.
 * In `Direct Coupling` the individual amplifier stage bias condition are so designed that the two stages may be directly connected without the necessity for `DC ISOLATION`.
 
+## Why `CAPACITORS` are used?
 
+Capacitors serve the following two roles in `BJT`
+* As **`COUPLING`** Capacitor
+* As **`BYPASS`** Capacitor 
