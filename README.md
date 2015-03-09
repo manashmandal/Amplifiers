@@ -88,3 +88,35 @@ The output from the collector of first BJT is fed to the input of second BJT.
 | Cost        | Less      | More      | Least    |
 | Imp Match   | Not Good  | Excellent | Good     |
 | Use [ampli] | Voltage   | Power     | Low Freq |
+
+# Feedback Amplifiers
+
+# BASIC feedback Amplifier classification:
+* VVT [Voltage Amplifier] ~ [In = V, Out = V]
+* CCT [Current Amplifier] ~ [In = I, Out = I]
+* VCT [Voltage to Current] ~ [In = V, Out = I] [AKA **Trans-Conductance Amplifier**]
+* CVT [Current to Voltage] ~ [In = I, Out = V] [AKA **Trans-Resistance Amplifier**]
+["T" = Transducer]
+
+## Good to know:
+* To maintain a stabilized feedback network, a source, basic amplifier, a load, sampling network and summing/comparison network are needed.
+
+* To sample `VOLTAGE` the connection should be **`Parallel`** at output
+* To sample `CURRENT` the connection should be **`Series`** at output
+
+* To compare `VOLTAGE` the connection should be **`Series`** at input
+* To compare `CURRENT` the connection should be **`Parallel`** at input
+
+## Voltage to Voltage [VVT] Simple Model
+![alt text](http://i.imgur.com/Uv5jG21.png)
+### Ideal Condition:
+R_in = infinity
+R_out = 0
+### Practical Condition:
+Design the model such a way that,
+R_in >> R_s
+R_out << R_L
+
+
+### Classification:
+* Voltage Amplifier 
