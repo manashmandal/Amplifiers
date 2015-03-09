@@ -11,16 +11,16 @@ Capacitors serve the following two roles in `BJT`
 * As **`BYPASS`** Capacitor 
 
 ### **Coupling** Function:
-* It blocks DC and provides `isolation between **AC** and **DC**`
-* It passes `AC` signal from one stage to the next stage with `**little or no distortion**`
+* It blocks DC and provides **`isolation between AC and DC`**
+* It passes `AC` signal from one stage to the next stage with **`little or no distortion`**
 
 ### **Bypass** Function:
-* Bypass capacitor also blocks dc but it is connected to `Emitter-Ground` junction `And Parallel to Re` so the AC signal passes from base to Ground without passing through `**Re**` as Re never existed in the first place.
-* It also `**INCREASES VOLTAGE GAIN**`, if bypass capacitor is not used then gain can be sharply reduced.
+* Bypass capacitor also blocks dc but it is connected to **`Emitter-Ground`** junction `And Parallel to Re` so the AC signal passes from base to Ground without passing through `Re` as Re never existed in the first place.
+* It also **`INCREASES VOLTAGE GAIN`**, if bypass capacitor is not used then gain can be sharply reduced.
 
 ## Important Terms and Definitions:
 * **Gain:** The ratio of output electrical quantity to input electrical quantity.
-* **Frequency Response:** The gain of amplifier varies with signal frequency, `**The curve between voltage gain and signal frequency**`
+* **Frequency Response:** The gain of amplifier varies with signal frequency, **`The curve between voltage gain and signal frequency`**
 
 # R-C Coupled Transistor Amplifier
 
