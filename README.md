@@ -101,11 +101,11 @@ The output from the collector of first BJT is fed to the input of second BJT.
 ## Good to know:
 * To maintain a stabilized feedback network, a source, basic amplifier, a load, sampling network and summing/comparison network are needed.
 
-* To sample `VOLTAGE` the connection should be **`Parallel`** at output
+* To sample `VOLTAGE` the connection should be **`Parallel`** / **`Shunt`** at output
 * To sample `CURRENT` the connection should be **`Series`** at output
 
 * To compare `VOLTAGE` the connection should be **`Series`** at input
-* To compare `CURRENT` the connection should be **`Parallel`** at input
+* To compare `CURRENT` the connection should be **`Parallel`** / **`Shunt`** at input
 
 ## Voltage to Voltage [VVT] Simple Model
 ![alt text](http://i.imgur.com/Uv5jG21.png)
@@ -122,6 +122,15 @@ R_in >> R_s
 
 R_out << R_L
 
+## Current to Current [CCT] Simple Model 
+![alt text](http://i.imgur.com/RUwXrtx.png)
 
-### Classification:
-* Voltage Amplifier 
+### Condition:
+
+R_in << R_s
+
+R_out >> R_L
+
+## 
+
+
