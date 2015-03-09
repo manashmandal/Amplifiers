@@ -110,11 +110,16 @@ The output from the collector of first BJT is fed to the input of second BJT.
 ## Voltage to Voltage [VVT] Simple Model
 ![alt text](http://i.imgur.com/Uv5jG21.png)
 ### Ideal Condition:
+
 R_in = infinity
+
 R_out = 0
+
 ### Practical Condition:
 Design the model such a way that,
+
 R_in >> R_s
+
 R_out << R_L
 
 
