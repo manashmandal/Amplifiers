@@ -24,6 +24,10 @@ Capacitors serve the following two roles in `BJT`
 
 # R-C Coupled Transistor Amplifier
 
+## Operation:
+
+AC Signal is applied on the first BJT, it appears in the amplified form across `Rc`. The second stage does further amplification.
+
 ## Advantages:
 * Voltage amplification
 * Excellent audio fidelity over a wide range of frequency [Large Band-width]
@@ -32,3 +36,55 @@ Capacitors serve the following two roles in `BJT`
 * Excellent frequency response
 
 ## Disadvantages:
+* Low power gain
+* Becomes noisy as it is used
+* Poor Impedance matching
+
+**Note:** For even number of cascaded stages the output signal does not get inverted and vice versa.
+
+# Transformer-Coupled Amplifier
+
+## Operation:
+
+When ac signal is applied to the base of first BJT. It appears in the amplified form across primary side of `TXF` then it goes from primary to secondary and further amplification is done by the second BJT.
+
+## Advantages:
+* No power is lost
+* Excellent impedance matching
+* Higher Gain for better impedance matching
+
+## Disadvantages:
+* Poor frequency response
+* Very bulky and expensive
+* Higher frequency distortion
+* Tends to create whining sound at the output
+
+## Application:
+* Used for **`impedance matching`** 
+* Used in **`loudspeaker`**
+
+# Direct-Coupled Amplifier
+
+## Operation:
+
+If first stage uses `n-p-n` then second one uses `p-n-p` .. .. and so on.
+The output from the collector of first BJT is fed to the input of second BJT.
+
+## Advantages:
+* Simple circuit arrangement
+* Low cost
+
+## Disadvantages:
+* Can not be used amplifying high frequency
+* Operation point is shifed due to temperature variations
+
+## Application:
+* Used at extremely low frequency signals e.g amplifying **`photo-electric current`**, **`thermo-couple`** current
+
+# Comparison between multi-stage Amplifiers
+| Particular  | RC        | TXF       | Direct   |
+|-------------|-----------|-----------|----------|
+| FR          | Excellent | Poor      | Best     |
+| Cost        | Less      | More      | Least    |
+| Imp Match   | Not Good  | Excellent | Good     |
+| Use [ampli] | Voltage   | Power     | Low Freq |
