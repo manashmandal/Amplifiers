@@ -109,7 +109,9 @@ The output from the collector of first BJT is fed to the input of second BJT.
 * To compare `CURRENT` the connection should be **`Parallel`** / **`Shunt`** at input
 
 ## Voltage to Voltage [VVT] Simple Model [AKA **`Voltage-Series`**]
+
 ![alt text](http://i.imgur.com/Uv5jG21.png)
+
 ### Ideal Condition:
 
 R_in = infinity
@@ -117,11 +119,14 @@ R_in = infinity
 R_out = 0
 
 ### Practical Condition:
+
 Design the model such a way that,
 
 R_in >> R_s
 
 R_out << R_L
+
+### Phase Shift:
 
 ## Current to Current [CCT] Simple Model  [AKA **`Current-Shunt`**]
 ![alt text](http://i.imgur.com/RUwXrtx.png)
@@ -132,13 +137,19 @@ R_in << R_s
 
 R_out >> R_L
 
+### Phase Shift:
+
 ## Voltage to Current [VCT] Simple Model [AKA **`Current-Series`**]
+
 ![alt text](http://i.imgur.com/kiCYrEa.jpg)
 
 ## Condition:
 
 R_i >> R_s
+
 R_L << R_o
+
+### Phase Shift:
 
 ## Current to Voltage [CVT] Simple Model [AKA **`Voltage-Shunt`**]
 
@@ -150,8 +161,60 @@ R_i << R_s
 
 R_o << R_L
 
+### Phase shift: 
+
 # Why Feedback Amplifiers are used?
 
 > A negative feedback amplifier (or more commonly simply a feedback amplifier) is an amplifier a fraction of the output of which is combined with the input so that a negative feedback **opposes** the original signal. **`The applied negative feedback improves performance (gain stability, linearity, frequency response, step response) and reduces sensitivity to parameter`** variations due to manufacturing or environment. Because of these advantages, negative feedback is used in this way in many amplifiers and control systems.
 
+# Push-Pull Power Amplifier
 
+## Difference between `VOLTAGE` and `POWER` Amplifier:
+
+| VA                              | PA                                           |
+|---------------------------------|----------------------------------------------|
+| High valued 'beta' so base thin | Base is made thicker to handle large current |
+| Usually R-C coupling            | Mostly TXF coupling                          |
+| Input voltage: LOW              | HIGH                                         |
+| Power output LOW                | HIGH                                         |
+| Output impedance HIGH           | LOW                                          |
+
+## Classification of Power Amplifiers:
+
+### Class A: 
+* Collector current flows at all times during the full cycle of signal.
+* Impedance matched to supply full power at output
+* Output wave is exactly similar as input
+* Low power output and low collector efficiency
+
+### Class B:
+* Collector current flows only during the positive half cycle of the input signal.
+* Higher power Output packed with higher efficiency
+* Mostly push-pull arranged
+
+### Class C:
+* Collector current flows for less than half cycle of the input signal.
+* Never used for power amplification
+* Used as tuned amplifiers to amplify narrow band of frequencies.
+
+
+# JFET voltage amplifier
+
+The JFET equivalents of BJT configurations are:
+* Common Source -> CE
+* Common Gate -> CB
+* Common Drain [AKA Source follower] -> CC 
+
+## Example of Common Source Config
+![alt text](http://i.imgur.com/BwLLayi.png)
+
+* Cs bypass capacitor grounds source for AC. Hence C1 and C0 Coupling capacitors phase inversion 180 Degree input to output.
+* Provides high voltage and power gain
+* Unstable current gain
+
+> * Gate of JFET returned to ground through R0
+> * As current flows through Rs it places a positive voltage on the gate. The reverse biases the Gs junction required for opeation
+> * Gate has no loading effect on source since R0 provides ground
+> * As the input (Gate) varies the output changes across Rd
+
+// **Author: Manash** //
