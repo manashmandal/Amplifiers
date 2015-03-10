@@ -218,4 +218,5 @@ The JFET equivalents of BJT configurations are:
 > * As the input (Gate) varies the output changes across Rd
 
 // **Author: Manash** //
+
 // Document Shortlink: `http://bitly.com/amplifierz` //
