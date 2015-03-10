@@ -96,6 +96,7 @@ The output from the collector of first BJT is fed to the input of second BJT.
 * CCT [Current Amplifier] ~ [In = I, Out = I]
 * VCT [Voltage to Current] ~ [In = V, Out = I] [AKA **Trans-Conductance Amplifier**]
 * CVT [Current to Voltage] ~ [In = I, Out = V] [AKA **Trans-Resistance Amplifier**]
+
 ["T" = Transducer]
 
 ## Good to know:
@@ -107,7 +108,7 @@ The output from the collector of first BJT is fed to the input of second BJT.
 * To compare `VOLTAGE` the connection should be **`Series`** at input
 * To compare `CURRENT` the connection should be **`Parallel`** / **`Shunt`** at input
 
-## Voltage to Voltage [VVT] Simple Model
+## Voltage to Voltage [VVT] Simple Model [AKA **`Voltage-Series`**]
 ![alt text](http://i.imgur.com/Uv5jG21.png)
 ### Ideal Condition:
 
@@ -122,7 +123,7 @@ R_in >> R_s
 
 R_out << R_L
 
-## Current to Current [CCT] Simple Model 
+## Current to Current [CCT] Simple Model  [AKA **`Current-Shunt`**]
 ![alt text](http://i.imgur.com/RUwXrtx.png)
 
 ### Condition:
@@ -131,6 +132,26 @@ R_in << R_s
 
 R_out >> R_L
 
-## 
+## Voltage to Current [VCT] Simple Model [AKA **`Current-Series`**]
+![alt text](http://i.imgur.com/kiCYrEa.jpg)
+
+## Condition:
+
+R_i >> R_s
+R_L << R_o
+
+## Current to Voltage [CVT] Simple Model [AKA **`Voltage-Shunt`**]
+
+![alt text](http://i.imgur.com/xfsxM7K.jpg)
+
+## Condition:
+
+R_i << R_s
+
+R_o << R_L
+
+# Why Feedback Amplifiers are used?
+
+> A negative feedback amplifier (or more commonly simply a feedback amplifier) is an amplifier a fraction of the output of which is combined with the input so that a negative feedback **opposes** the original signal. **`The applied negative feedback improves performance (gain stability, linearity, frequency response, step response) and reduces sensitivity to parameter`** variations due to manufacturing or environment. Because of these advantages, negative feedback is used in this way in many amplifiers and control systems.
 
 
