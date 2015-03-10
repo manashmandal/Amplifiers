@@ -171,7 +171,7 @@ R_o << R_L
 
 ## Difference between `VOLTAGE` and `POWER` Amplifier:
 
-| VA                              | PA                                           |
+| Voltage Amplifier               | Power Amplifier                              |
 |---------------------------------|----------------------------------------------|
 | High valued 'beta' so base thin | Base is made thicker to handle large current |
 | Usually R-C coupling            | Mostly TXF coupling                          |
@@ -218,3 +218,4 @@ The JFET equivalents of BJT configurations are:
 > * As the input (Gate) varies the output changes across Rd
 
 // **Author: Manash** //
+// Document Shortlink: `http://bitly.com/amplifierz` //
