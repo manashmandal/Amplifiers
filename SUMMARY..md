@@ -1,4 +1,4 @@
 # Summary
 
-* [Summary](SUMMERY.md)
+* [Summary](summary.md)
 
