@@ -52,7 +52,7 @@ When ac signal is applied to the base of first BJT. It appears in the amplified 
 ## Advantages:
 * No power is lost
 * Excellent impedance matching
-* Higher Gain for better impedance matching
+* Higher Gain for better impedance matching [Matches `HIGH OUTPUT IMPEDANCE` of `first stage` and `LOW INPUT IMPEDANCE` of the second stage] 
 
 ## Disadvantages:
 * Poor frequency response
