@@ -201,6 +201,15 @@ R_o << R_L
 * Never used for power amplification
 * Used as tuned amplifiers to amplify narrow band of frequencies.
 
+## Comparison of Amplifier Classes
+
+|                          | A       | AB       | B     | C     | D                  |
+|--------------------------|---------|----------|-------|-------|--------------------|
+| Operating Cycle [degree] | 360     | 180~360  | 180   | < 180 | Pulse Operation    |
+| Power efficiency         | 25%~50% | 25~78.5% | 78.5% |       | Typically over 90% |
+
+
+
 
 # JFET voltage amplifier
 
