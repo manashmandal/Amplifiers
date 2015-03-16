@@ -17,6 +17,7 @@ Capacitors serve the following two roles in `BJT`
 ### **Bypass** Function:
 * Bypass capacitor also blocks dc but it is connected to **`Emitter-Ground`** junction `And Parallel to Re` so the AC signal passes from base to Ground without passing through `Re` as Re never existed in the first place.
 * It also **`INCREASES VOLTAGE GAIN`**, if bypass capacitor is not used then gain can be sharply reduced.
+* It reduces `Stability`
 
 ## Important Terms and Definitions:
 * **Gain:** The ratio of output electrical quantity to input electrical quantity.
