@@ -90,6 +90,8 @@ The output from the collector of first BJT is fed to the input of second BJT.
 | Imp Match   | Not Good  | Excellent | Good     |
 | Use [ampli] | Voltage   | Power     | Low Freq |
 
+**Note: `Excellent` is better than `Best`** 
+
 # Feedback Amplifiers
 
 # BASIC feedback Amplifier classification:
