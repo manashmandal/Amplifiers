@@ -93,6 +93,27 @@ The output from the collector of first BJT is fed to the input of second BJT.
 
 **Note: `Excellent` is better than `Best`** 
 
+# A quick peek on "How to draw AC equivalent circuits"
+
+Let's take this circuit as an example
+
+![alt text](http://i.imgur.com/IzJsysy.jpg)
+
+## Rule for drawing AC equiv ckts
+* The Idea is to `short` the **`Capacitors`** and `Ground` the **`DC Voltages`** and `open` the **`Inductors`**
+* Then redraw the circuit with minimum components [E.g if there are two resistors connected in parallel, sum them up into one]
+
+### Lets apply Rule number one 
+
+![alt text](http://i.imgur.com/rPpC7rS.jpg)
+![alt text](http://i.imgur.com/SX4nggN.jpg)
+
+### Now apply Second one 
+
+![alt text](http://i.imgur.com/hx5dHWa.jpg)
+
+That's it!
+
 # Feedback Amplifiers
 
 # BASIC feedback Amplifier classification:
