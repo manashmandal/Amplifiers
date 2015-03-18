@@ -230,6 +230,12 @@ The JFET equivalents of BJT configurations are:
 > * Gate has no loading effect on source since R0 provides ground
 > * As the input (Gate) varies the output changes across Rd
 
+
+# Op-Amp [Operational Amplifier]
+If following waveshapes pass through **Differentiator** then the output will be
+
+![alt text](http://i.imgur.com/VL5q8bM.gif)
+
 // **Author: Manash** //
 
 // Document Shortlink: `http://bitly.com/amplifierz` //
