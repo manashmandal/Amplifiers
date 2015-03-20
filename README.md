@@ -4,6 +4,8 @@
 * In `Transformer` Coupling, transformer is used as the coupling device. It performs same actions as RC Coupled amplifier but permits `IMPEDANCE MATCHING`. Usually a `STEP DOWN` Transformer is used for higher current output.
 * In `Direct Coupling` the individual amplifier stage bias condition are designed such a way that the two stages may be directly connected without the necessity for `DC ISOLATION`.
 
+$$a + b = c$$
+
 ## Why `CAPACITORS` are used?
 
 Capacitors serve the following two roles in `BJT`
