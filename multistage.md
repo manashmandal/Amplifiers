@@ -6,4 +6,4 @@
 
 * In `Direct Coupling` the individual amplifier stage bias condition are designed such a way that the two stages may be directly connected without the necessity for `DC ISOLATION`.
 
-$$a + b = c $$
+
